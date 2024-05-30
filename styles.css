@@ -3,12 +3,13 @@ body {
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 #navbar {
   display: flex;
   top: 0;
   left: 0;
   position: fixed;
-  background-color: #756AB6;
+  background-color: #756ab6;
   justify-content: flex-end;
   width: 100%;
 }
@@ -28,7 +29,8 @@ li {
   font-size: 1.5em;
   padding: 1rem 2rem;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
   background-color: #E0AED0;
 }
 
@@ -47,7 +49,7 @@ h1 {
   font-weight: 700px;
   font-size: 3rem;
 }
- 
+
 #wel-p {
   color: #E0AED0;
   font-size: 2rem;
@@ -57,7 +59,7 @@ h1 {
 
 .projects {
   text-align: center;
-  background-color: #AC87C5;
+  background-color: #ac87c5;
   padding: 4rem 2rem;
 }
 
@@ -73,7 +75,7 @@ h2 {
 }
 
 .project-img {
-  height: calc(100%-6.8rem);
+  height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
   display: inline;
@@ -81,7 +83,7 @@ h2 {
 
 .project-tile {
   color: black;
-  background-color: #756AB6;
+  background-color: #756ab6;
   padding: 2rem 0;
   margin: 0% 1%;
 }
@@ -115,15 +117,13 @@ h2 {
   font-size: 1.5rem;
 }
 
-
-
-#profile-link  {
+#profile-link {
   color: white;
   text-decoration: none;
   font-size: 1em;
   padding: 1em 1em;
 }
 
-#profile-link a:hover{
-  background-color: #E0AED0;
+#profile-link a:hover {
+  background-color: #e0aed0;
 }
