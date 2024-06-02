@@ -37,6 +37,13 @@ li {
   padding: 1rem 1rem;
 }
 
+#profile-link a {
+  text-decoration: none;
+  padding: 1rem ;
+  color: white;
+  font-size: 1em;
+}
+
 #nav-list a:hover {
   background-color: #e0aed0;
   border-radius: 10px;
@@ -67,7 +74,7 @@ h1 {
 
 .projects {
   text-align: center;
-  background-color: #ac87c5;
+  background-color: #c5acd4;
   padding: 4rem 2rem;
 }
 
@@ -103,7 +110,7 @@ h2 {
   text-decoration: none;
 }
 
-.project-tile {
+#project-title {
   color: white;
   font-size: large;
   padding: 4%;
@@ -126,13 +133,6 @@ h2 {
   font-weight: 100;
   text-align: center;
   font-size: 1.5rem;
-}
-
-#profile-link a {
-  text-decoration: none;
-  padding: 1rem ;
-  color: white;
-  font-size: 1em;
 }
 
 i {
