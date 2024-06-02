@@ -37,9 +37,13 @@ li {
   padding: 1rem 1rem;
 }
 
+.project-grid a {
+  text-decoration: none;
+}
+
 #profile-link a {
   text-decoration: none;
-  padding: 1rem ;
+  padding: 1rem;
   color: white;
   font-size: 1em;
 }
@@ -106,10 +110,6 @@ h2 {
   margin-bottom: 6rem;
 }
 
-.project-grid a {
-  text-decoration: none;
-}
-
 #project-title {
   color: white;
   font-size: large;
@@ -148,7 +148,6 @@ i {
   h2 {
     font-size: 1rem;
   }
-  
   #nav-list {
     padding: 2px;
     font-size: 10px;
