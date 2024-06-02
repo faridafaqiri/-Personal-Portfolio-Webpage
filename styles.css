@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar {
+  display: flex;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #756ab6;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1rem 2rem;
+}
+
+#profile-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1rem 1rem;
+}
+
+.project-grid a {
+  text-decoration: none;
+}
+
+#profile-link a {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  font-size: 1em;
+}
+
+#nav-list a:hover {
+  background-color: #e0aed0;
+  border-radius: 10px;
+}
+
+#weclome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/Calm\ Darya.jpg);
+}
+
+h1 {
+  color: white;
+  font-weight: 700px;
+  font-size: 3rem;
+}
+
+#wel-p {
+  color: #e0aed0;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 100px;
+}
+
+.projects {
+  text-align: center;
+  background-color: #c5acd4;
+  padding: 4rem 2rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: white;
+}
+
+.project-img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-tile {
+  color: black;
+  background-color: #756ab6;
+  padding: 2rem 0;
+  margin: 0% 1%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#project-title {
+  color: white;
+  font-size: large;
+  padding: 4%;
+}
+
+#contact {
+  background-image: url(./images/Magic.jpg);
+  width: 90;
+  height: 80vh;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-p {
+  color: #333;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+i {
+  padding: 7px;
+}
+
+#profile-link a:hover {
+  background-color: #e0aed0;
+  border-radius: 10px;
+}
+
+@media (max-width: 660px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  #nav-list {
+    padding: 2px;
+    font-size: 10px;
+    width: 100%;
+  }
+}
